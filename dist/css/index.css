@@ -1,0 +1,62 @@
+body{
+    max-width: 1600px!important;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add these custom styles to your existing CSS */
+.navbar{
+    display: flex!important;
+    justify-content: space-between!important;
+}
+.navbar {
+    background-color: #580f8b;
+}
+.nav-link{
+    text-align: center;
+}
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+}
+
+
+.navbar-brand,
+.navbar-toggler-icon,
+.nav-link,
+.dropdown-item {
+    color: white !important;
+    font-family: 'Raleway', sans-serif;
+ 
+    font-weight: 200px!important;
+}
+.navbar-toggler{
+    background-color: white!important;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.navbar-toggler-icon{
+    background-color: black!important;
+}
+/* Change the background color of the active link in the navbar */
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #450c6d; /* You can adjust the color as needed */
+}
+
+/* Change the background color of the dropdown menu */
+.dropdown-menu {
+    background-color: #580f8b;
+}
+
+
+
+.home-image img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
