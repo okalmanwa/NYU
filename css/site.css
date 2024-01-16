@@ -49,8 +49,10 @@ h2 {
     color: #580f8b;
     text-transform: uppercase;
     letter-spacing: 4px;
+    padding-top: 7px;
   
   }
+
 
 .list-group-item{
     font-family: 'Open Sans', sans-serif;
@@ -97,6 +99,14 @@ thead{
   
     nav{
         height: fit-content;
+        
+
+    }
+    #sidebar-wrapper{
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        z-index: 3;
     }
     #Overview{
         margin-top: 70px!important;
