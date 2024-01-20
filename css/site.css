@@ -47,7 +47,7 @@ th, td {
 }
 
 
-h2 {
+/* h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 21px;
     font-weight: bold;
@@ -56,22 +56,43 @@ h2 {
     letter-spacing: 4px;
     padding-top: 7px;
 
-}
+} */
+
+/* Paragraph style */
+p,li{
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Heading 1 style */
+  h2 {
+    font-family: 'Cheltenham', 'Times New Roman', serif; /* Fallbacks in case Cheltenham is not available */
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333; /* Adjust color as needed */
+  }
+  
 
 
 .list-group-item {
     font-family: 'Open Sans', sans-serif;
 }
 
-p, li {
+/* p, li {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 
-}
+} */
 
 span {
-    font-weight: 900 !important;
-    font-size: 19px;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
     text-decoration: underline;
 }
 
