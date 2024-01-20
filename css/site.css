@@ -1,3 +1,7 @@
+body {
+    max-width: 1600px !important;
+}
+
 :root {
     --bg-color: #580f8b;
     --text-color: white;
@@ -21,19 +25,20 @@
     color: var(--toggle-text-color);
     border-color: var(--toggle-border-color);
 }
-.navbar-toggler{
+
+.navbar-toggler {
     border-color: var(--bg-color);
 }
-.nav-link{
+
+.nav-link {
     color: var(--bg-color);
 }
-nav{
+
+nav {
     height: 70px;
-   
+
 }
-#Overview{
-    margin-top: 90px!important;
-}
+
 
 th, td {
     border: 1px solid blueviolet;
@@ -50,76 +55,96 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding-top: 7px;
-  
-  }
+
+}
 
 
-.list-group-item{
+.list-group-item {
     font-family: 'Open Sans', sans-serif;
 }
-p,li{
+
+p, li {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
-   
+
 }
-span{
-    font-weight: 900!important;
+
+span {
+    font-weight: 900 !important;
     font-size: 19px;
     text-decoration: underline;
 }
-.table{
+
+.table {
     display: flex;
     justify-content: center;
-    
+
 }
-td{
+
+td {
     width: 200px;
 }
-thead{
+
+thead {
     background-color: #580f8b;
     color: white;
 }
 
 
-.correct-pos{
-    padding-left: 1%!important;
-    position: relative!important;
+.correct-pos {
+    padding-left: 1% !important;
+    position: relative !important;
     right: 0;
 }
-.navbar{
+
+.navbar {
     background-color: #580f8b;
     color: white;
 }
-.reset-pos-navbar{
-   margin-left: 2px!important;
+
+.reset-pos-navbar {
+    margin-left: 2px !important;
 
 
 }
-@media(max-width: 767px){
-  
-    nav{
+
+
+@media(max-width: 767px) {
+
+    nav {
         height: fit-content;
-        
+
 
     }
-    #sidebar-wrapper{
+
+    #sidebar-wrapper {
         position: fixed;
         top: 0;
         height: 100vh;
         z-index: 3;
     }
-    #Overview{
-        margin-top: 70px!important;
+
+    h2 {
+        padding-top: 60px !important;
+        margin-top: 0;
+
     }
-   
+    #Overview{
+        padding-top: 40px !important;
+
+    }
+
+
 }
-@media(min-width: 768px){
+
+@media(min-width: 768px) {
 
     @keyframes letterDrop {
         from {
             transform: translateY(-50px);
             opacity: 0;
         }
+
         to {
             transform: translateY(0);
             opacity: 1;
@@ -128,29 +153,40 @@ thead{
 
     h2 {
         animation: letterDrop 0.5s ease-in-out;
+        padding-top: 80px !important;
     }
- .navbar{
-    margin-left: 250px;
- }
- #sidebar-wrapper{
-    position: fixed;
-    left: 0;
-    width: 250px;
-    height: 100vh;
- }
- #page-content-wrapper{
-    padding-left: 250px;
-    
-  
- }
+
+    .navbar {
+        margin-left: 250px;
+    }
+
+    #sidebar-wrapper {
+        position: fixed;
+        left: 0;
+        width: 250px;
+        height: 100vh;
+    }
+
+    #page-content-wrapper {
+        padding-left: 250px;
+
+
+    }
+    #Overview{
+        padding-top: 55px !important;
+
+    }
 }
-.container-fluid{
+
+.container-fluid {
     padding-right: 3%;
 }
+
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
     margin-bottom: 20px;
     overflow: hidden;
 }
