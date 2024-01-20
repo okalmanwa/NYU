@@ -68,13 +68,16 @@ p,li{
   
   /* Heading 1 style */
   h2 {
-    font-family: 'Cheltenham', 'Times New Roman', serif; /* Fallbacks in case Cheltenham is not available */
-    font-size: 36px;
+    font-family: 'Cheltenham', 'Times New Roman', serif; 
+    text-transform: uppercase;
+
+    font-size: 25px;
     line-height: 1.2;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #333; /* Adjust color as needed */
+    color: var(--bg-color)
   }
+  
   
 
 
@@ -89,7 +92,7 @@ p,li{
 } */
 
 span {
-    font-family: 'Georgia', serif;
+    font-family: 'Cheltenham', 'Times New Roman', serif; 
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -126,6 +129,10 @@ thead {
 .reset-pos-navbar {
     margin-left: 2px !important;
 
+
+}
+.list-group-item{
+    font-family: 'Cheltenham', 'Times New Roman', serif;
 
 }
 
