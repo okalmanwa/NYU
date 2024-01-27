@@ -36,6 +36,11 @@ document.getElementById('sidebarToggle').addEventListener('click', function () {
     targetElement.classList.toggle('reset-pos-navbar');
 });
 
+document.getElementById('sidebarToggle').addEventListener('click', function () {
+    var targetElement = document.getElementById('foot');
+    targetElement.classList.toggle('reset-pos-navbar');
+});
+
 // Get the current year
 const currentYear = new Date().getFullYear();
 

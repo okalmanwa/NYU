@@ -257,8 +257,9 @@ thead {
         padding-top: 80px !important;
     }
 
-    .navbar {
+    .navbar,footer {
         margin-left: 250px;
+
     }
 
     #sidebar-wrapper {
