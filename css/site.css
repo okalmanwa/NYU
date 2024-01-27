@@ -1,6 +1,7 @@
 body {
     max-width: 1600px !important;
 }
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
 
 :root {
     --bg-color: #580f8b;
@@ -47,23 +48,28 @@ th, td {
 }
 
 
-p,li{
+p, li {
     font-family: 'Georgia', serif;
-    font-size: 17px;
+    font-size: 17.8px;
     line-height: 1.6;
     margin-bottom: 15px;
 
-  }
-   /* #sidebarToggle{
+}
+.carousel-control-next-icon{
+    color: black;
+
+}
+
+/* #sidebarToggle{
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
    } */
-  
-  /* Heading 1 style */
 
-  
-  h2 {
-    font-family: 'Cheltenham', 'Times New Roman', serif; 
+/* Heading 1 style */
+
+
+/* h2 {
+    font-family: 'Cheltenham', 'Times New Roman', serif;
     text-transform: uppercase;
 
     font-size: 25px;
@@ -71,26 +77,82 @@ p,li{
     margin-bottom: 5px;
     font-weight: bold;
     color: var(--bg-color);
-   
-  }
-  
-  h3{
-    font-family: 'Cheltenham', 'Times New Roman', serif; 
-    font-size: 20px;
-    text-decoration: underline;
-    /* font-weight: bold; */
 
-   
-   
+} */
 
-  }
-.btn{
+
+
+/* === BASE HEADING === */
+
+h2 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    margin-bottom: 2%;
+    color: #580f8b;
+
+}
+
+h2 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+}
+
+h2 em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* === HEADING STYLE #1 === */
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+h2:before {
+    width: 29px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #c50000;
+}
+
+h2:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #c50000;
+}
+
+
+
+
+.btn {
     font-family: 'Times New Roman', Times, serif;
 }
 
 
 .list-group-item {
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
 /* p, li {
@@ -99,7 +161,14 @@ p,li{
 
 } */
 
-
+h3{
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: 700;
+    color: var(--bg-color);
+}
+strong,b{
+    color: var(--bg-color);
+}
 .table {
     display: flex;
     justify-content: center;
@@ -132,7 +201,8 @@ thead {
 
 
 }
-.list-group-item{
+
+.list-group-item {
     font-family: 'Cheltenham', 'Times New Roman', serif;
 
 }
@@ -156,9 +226,11 @@ thead {
     h2 {
         padding-top: 60px !important;
         margin-top: 0;
+        font-size: 18px;
 
     }
-    #Overview{
+
+    #Overview {
         padding-top: 40px !important;
 
     }
@@ -201,7 +273,8 @@ thead {
 
 
     }
-    #Overview{
+
+    #Overview {
         padding-top: 55px !important;
 
     }
@@ -216,7 +289,7 @@ thead {
     width: 100%;
     padding-bottom: 56.25%;
     /* 16:9 aspect ratio */
- 
+
     overflow: hidden;
 }
 
@@ -227,3 +300,131 @@ iframe {
     width: 100%;
     height: 100%;
 }
+
+/* Body settings */
+body {
+  background-color: #fff;
+  color: #000;
+  /* System font stack at 14px */
+  font: 400 0.875rem/1.42857 system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: block;
+}
+.footer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background: #eee;
+}
+
+/* Links */
+.footer a {
+  font-weight: 400;
+  text-decoration-thickness: 0.0625rem;
+  text-underline-offset: 0.25rem;
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.3s ease-in-out 0s;
+  color: #0d1846;
+}
+.footer a:hover {
+  text-decoration-line: underline;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: #0d1846;
+}
+.abn {
+  white-space: nowrap;
+}
+
+/* add border to bottom of message section */
+.message-container {
+  margin: 0 auto;
+  border-bottom: 1px solid #c5cbd1;
+}
+
+.message-contents {
+  text-align: left;
+  padding: 1rem 1.5rem;
+}
+
+/* Container for the links and copyright */
+.legal-container {
+  margin: 0 auto;
+}
+
+.legal-contents {
+  flex-flow: column wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  display: flex;
+}
+
+.legal-contents ul {
+  gap: 1rem;
+  flex-direction: column;
+  display: flex;
+  margin: 0;
+  border-bottom: 1px solid #c5cbd1;
+  padding: 1.5rem;
+  list-style: none;
+  text-align: left;
+}
+
+.legal-contents p {
+  margin: 0;
+  padding: 1rem 1.5rem;
+}
+
+/* Small Tablet */
+@media screen and (min-width: 600px) {
+  .legal-contents ul {
+    gap: 2rem;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .legal-contents ul {
+    gap: 2rem;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+/* Large Tablet */
+@media screen and (min-width: 1024px) {
+  .legal-contents {
+    flex-flow: row;
+    padding: 1.5rem;
+  }
+  .legal-contents ul {
+    border-bottom: 0;
+    padding: 0;
+  }
+  .legal-container p {
+    padding: 0;
+    text-align: right;
+  }
+}
+
+/* Desktops and Laptops */
+@media screen and (min-width: 1200px) {
+  .message-contents,
+  .legal-contents {
+    margin: 0 auto;
+    max-width: 75rem; /* 1200px */
+  }
+}
+/* EOF */

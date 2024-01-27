@@ -36,6 +36,11 @@ document.getElementById('sidebarToggle').addEventListener('click', function () {
     targetElement.classList.toggle('reset-pos-navbar');
 });
 
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Select the element by its class and set its content
+document.querySelector(".currentYear").textContent = currentYear;
 
 
 
