@@ -48,4 +48,9 @@ const currentYear = new Date().getFullYear();
 document.querySelector(".currentYear").textContent = currentYear;
 
 
+document.body.addEventListener('click', fn, true, function(){
+    event.preventDefault();
+    document.body.classList.toggle('sb-sidenav-toggled');
+    localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
 
+});
